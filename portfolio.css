@@ -1,0 +1,76 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: ivory;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Section styles */
+  section {
+    margin: 20px 0;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact section styles */
+  section#contact ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  section#contact ul li {
+    margin-bottom: 5px;
+  }
+  
+  section#contact ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
